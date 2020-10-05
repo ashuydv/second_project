@@ -41,7 +41,7 @@ header{
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 10;
   
 }
 
@@ -306,7 +306,7 @@ nav{
   font-size: 8rem;
   color: #eb648c;
   opacity: .5;
-  z-index: -1;
+  z-index:-1;
 }
 
 .testimonial-customer img{
@@ -367,6 +367,7 @@ footer{
     display:flex;
     flex-direction: row;
     transition: initial;
+    
   }
   .menu-icons{
     display: none;
@@ -378,14 +379,14 @@ footer{
   .current{
     color: #fafafa;
     position: relative;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .nav-link::before,
   .current::before{
     content:'';
     position: absolute;
     left:0;
-    bottom: -.5rem;
+    bottom: 1.5rem;
     background-color:#eb648c;
     width: 100%;
     transform: scaleX(0);
